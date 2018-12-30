@@ -68,7 +68,7 @@ export default class Wiv extends Component {
 
     return (
       <div style={outerDivStyle} className={className}>
-        {this.state.height && <canvas {...this.state} style={canvasStyle} ref={this.canvas} />}
+        <canvas {...this.state} style={canvasStyle} ref={this.canvas} />
         <div style={{ padding: height * 4 }} ref={this.wiv}>{children}</div>
       </div>
     )
