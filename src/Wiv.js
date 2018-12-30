@@ -43,10 +43,11 @@ export default class Wiv extends Component {
   }
 
   render() {
-    const { height, children } = this.props
-    const style = {
+    const { height, children, className, style } = this.props
+    const outerDivStyle = {
       display: 'inline-block',
-      borderRadius: height
+      borderRadius: height,
+      ...style
     }
 
     const canvasStyle = {
@@ -56,7 +57,7 @@ export default class Wiv extends Component {
     }
 
     return (
-      <div style={style}>
+      <div style={outerDivStyle} className={className}>
         {this.state.height && <canvas {...this.state} style={canvasStyle} ref={this.canvas} />}
         <div style={{ padding: height * 4 }} ref={this.wiv}>{children}</div>
       </div>
@@ -66,6 +67,8 @@ export default class Wiv extends Component {
 
 Wiv.propTypes = {
   children: PropTypes.any,
+  className: PropTypes.string,
+  style: PropTypes.object,
   height: PropTypes.number,
   color: PropTypes.string,
   speed: PropTypes.number,
