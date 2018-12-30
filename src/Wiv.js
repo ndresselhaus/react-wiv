@@ -89,7 +89,7 @@ Wiv.propTypes = {
 Wiv.defaultProps = {
   color: '#FF0000',
   speed: 'standard',
-  height: 0,
-  tightness: 0,
-  thickness: 0
+  height: 5,
+  tightness: 6,
+  thickness: 2
 }
