@@ -1,0 +1,1 @@
+{"version":3,"sources":["/Users/nick/repos/react-wiv/example/src/index.css"],"names":[],"mappings":"AAAA,KACE,SAAU,AACV,UAAW,AACX,kCAAoC,AACpC,sBAAwB,AACxB,UAAa,CACd","file":"main.5575558b.chunk.css","sourcesContent":["body {\n  margin: 0;\n  padding: 0;\n  font-family: Comic Sans, sans-serif;\n  background-color: black;\n  color: white;\n}\n"]}
