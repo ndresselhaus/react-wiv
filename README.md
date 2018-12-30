@@ -6,6 +6,8 @@ React component for more wiggly divs (an implementation/wrapper of [wiv.js](http
 
 Originally bootstrapped using [create-react-library](https://github.com/transitive-bullshit/create-react-library)
 
+Demo: https://ndresselhaus.github.io/react-wiv/
+
 ## Install
 
 ```bash
