@@ -58,5 +58,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "wiv.js": "github:jjkaufman/wiv.js"
+  }
 }
